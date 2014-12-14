@@ -1039,7 +1039,7 @@ html, body {
     font-weight: 700;
     line-height: 2;
     padding-left: 26%;
-    background: url("assets/images/buoy_icon.png") no-repeat 12%;
+    background: url("../images/buoy_icon.png") no-repeat 12%;
     background-size: contain; }
     .cd-product-intro h1 img {
       width: 80px; }
@@ -1385,7 +1385,7 @@ html, body {
       width: 24px;
       height: 16px;
       opacity: 0.5;
-      background: url(assets/images/cd-arrow.svg) no-repeat center center;
+      background: url(../images/cd-arrow.svg) no-repeat center center;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       -webkit-transition: opacity 0.2s;
