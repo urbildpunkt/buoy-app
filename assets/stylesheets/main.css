@@ -1038,11 +1038,19 @@ html, body {
     font-size: 1.5625rem;
     font-weight: 700;
     line-height: 2;
-    padding-left: 26%;
-    background: url("../images/buoy_icon.png") no-repeat 12%;
+    text-align: center;
+    background: url("../images/buoy_icon.png") no-repeat 30%;
     background-size: contain; }
     .cd-product-intro h1 img {
       width: 80px; }
+    @media only screen and (min-width: 480px) {
+      .cd-product-intro h1 {
+        background-position: 36%; } }
+    @media only screen and (min-width: 1070px) {
+      .cd-product-intro h1 {
+        text-align: left;
+        padding-left: 26%;
+        background-position: 12%; } }
   .cd-product-intro h2 {
     font-size: 48px;
     font-size: 3rem;
