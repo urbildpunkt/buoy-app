@@ -899,7 +899,7 @@ html * {
 
 body {
   color: #bed1ec;
-  background-color: #477DCA; }
+  background-color: #2F6FB8; }
 
 a {
   color: #477DCA;
@@ -986,10 +986,10 @@ html, body {
     clear: both; }
   .cd-header #cd-logo {
     float: left;
-    margin: 0 0 0 5%; }
+    margin: 2.5px 0 0 5%; }
     .cd-header #cd-logo img {
       display: block;
-      width: 50px; }
+      width: 45px; }
   .cd-header #cd-action {
     display: inline-block;
     float: right;
@@ -1032,6 +1032,11 @@ html, body {
 .cd-product-intro {
   padding: 50px 5%;
   text-align: center; }
+  .cd-product-intro img {
+    max-width: 360px; }
+    @media only screen and (min-width: 1070px) {
+      .cd-product-intro img {
+        margin-left: 5%; } }
   .cd-product-intro h1 {
     margin-bottom: 10px;
     font-weight: 100;
@@ -1040,10 +1045,10 @@ html, body {
     font-weight: 700;
     line-height: 2;
     text-align: center;
-    background: url("../images/buoy_icon.png") no-repeat 30%;
+    background: url("../images/buoy_logo-text.png") no-repeat 30%;
     background-size: contain; }
     .cd-product-intro h1 img {
-      width: 80px; }
+      max-width: 360px; }
     @media only screen and (min-width: 480px) {
       .cd-product-intro h1 {
         background-position: 36%; } }
